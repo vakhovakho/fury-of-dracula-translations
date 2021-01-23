@@ -105,17 +105,6 @@ function renderList(list, parent) {
     parent.appendChild(ul);
 }
 
-let cards = [];
-const eventParent = document.body;
-const itemParent = document.body;
-
-fetch('/data.json')
-    .then(res => res.json())
-    .then(data => {
-        cards = data;
-        filter();
-    });
-
 function filter(query = "") {
     eventParent.innerHTML = '';
     itemParent.innerHTML = '';
@@ -133,4 +122,21 @@ function filter(query = "") {
         } 
     });
 }
+
+let cards = [];
+
+const eventParent = document.getElementById("events");
+const itemParent = document.getElementById("items");
+const searchElement = document.getElementById('search');
+
+fetch('/data.json')
+    .then(res => res.json())
+    .then(data => {
+        cards = data;
+        filter();
+    });
+
+searchElement.addEventListener("keyup", () => {
+    filter(searchElement.value);
+})
 
