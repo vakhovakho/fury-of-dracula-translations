@@ -31,9 +31,17 @@
     margin: 10px 0;
 }
 
+.card .image-container {
+    background-image: url('/assets/images/frame-image.png');
+    background-image: url(/assets/images/frame-image.png);
+    padding: 10px;
+    background-size: cover;
+    background-position: -4px -3px;
+    background-repeat: no-repeat;
+}
+
 .card img {
     width: 100%;
-    border: 5px solid white;
     box-sizing: border-box;
 }
 
