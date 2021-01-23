@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fury Of Dracula</title>
-    <link rel="stylesheet" href="./assets/css/style.css/">
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./assets/js/script.js"></script>
 </head>
 <body>
-    
+    <div class="card-types">
+        <h2 class="event">Event Cards</h2>
+        <form>
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <h2 class="item">Item Cards</h2>
+    </div>
+    <div class="cards-wrapper">
+        <div class="event-card">
+            <h2 class="none event-min">Event Cards</h2>
+            <div class="event-card-wrapper">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+        <div class="item-card">
+            <h2 class="none item-min">Item Cards</h2>
+            <div class="item-card-wrapper">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
