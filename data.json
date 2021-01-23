@@ -1,0 +1,934 @@
+[
+    {
+        "type": "event",
+        "title": "Lucy's revenge",
+        "img": "",
+        "abilities": [],
+        "meta": ["მხოლოდ Lord Godalming-ისთვის","ითამაშე ბრძოლის დაწყებამდე, სანამ აირჩევ ბარათს"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დადე ეს ბარათი შენს წინ და მოიშორე იგი ბრძოლის ბოლოს ან რომელიმე ქვემოთ ჩამოთვლილის შემთხვევაში :",
+                            "listItems": ["გააუქმე გაქცევის Escape As Bat ან Escape As Mist ბარათი","თუ ხარ ნაკბენი ან კვდები დარტყმით ის დარტყმა ან კბენა უქმდება"]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Excelent weather",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც დღის მოქმედება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გადაადგილდი ორი ნაბიჯით ზღვაზე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Consecrated ground",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც ღამის მოქმედება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოიყენე Consecrated ground-ის ჟეტონი ნებისმიერ ქალაქზე გარდა Castle Dracula Galatz ან Klausenburg",
+                            "listItems": []
+                        },
+                        {
+                            "text":"შემდეგ თითოეულ მონადირეს შეუძლია გამოააშკარაოს Heavenly Host ბარათი და დადოს Heavenly Host ჟეტონი ნებისმიერ ქალაქზე იგივე გამონაკლისებით",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Evil presence",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დრაკულამ უნდა წარმოთქვას ყველა მონადირის სახელი, რომელიც მის მეზობელ ქალაქშია",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Wax cylinders",
+        "img": "",
+        "abilities": [],
+        "meta": ["მხოლოდ Dr. Seward-ისთვის", "ითამაშე როგორც დედუქცია ან ანალიზი"],
+        "options": [
+            {
+                "title": "დედუქცია",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე სამალავი. დრაკულამ უნდა გამოააშკარავოს ყველა ბოროტმოქმედის ბარათი ამ სამალავში",
+                            "listItems": []
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "ანალიზი",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დრაკულამ უნდა გამოააშკარაოს Hide დამატებითი ბარათი დასტიდან ან ბილიკიდან, შემდეგ დაიბრუნე ეს ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Newspaper reports",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე ან გათენებისას ან დაღამებისას"],
+        "options": [
+            {
+                "title": "ახლავე",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე მოძრაობის ბილიკზე მესამე ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "გამთენიისას ან დაღამებისას",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე მოძრაობის ბილიკზე მეხუთე ან მეექსვე ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Jonathan Harker",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე ლოკაციის შესამოწმებლად ან როგორც მოკავშირე"],
+        "options": [
+            {
+                "title": "ლოკაციის შემოწმება",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეარჩიე ერთი ქალაქი. დრაკულამ უნდა გამოააშკარაოს ამ ქალაქის ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "მოკავშირე",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"როცა სამალავი გადავა ბილიკის მეექვსე უჯრაზე გამოააშკარავე შესაბამისი ლოკაცია",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Rufus Smith",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე ლოკაციის შესამოწმებლად ან როგორც მოკავშირე"],
+        "options": [
+            {
+                "title": "ლოკაციის შემოწმება",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეარჩიე ერთი ქალაქი. დრაკულამ უნდა გამოააშკარაოს ამ ქალაქის ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "მოკავშირე",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"როცა დრაკულა გადავა ზღვიდან ზღვაში აკლდება ორი სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Sistet Agatha",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე ლოკაციის შესამოწმებლად ან როგორც მოკავშირე"],
+        "options": [
+            {
+                "title": "ლოკაციის შემოწმება",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეარჩიე ერთი ქალაქი. დრაკულამ უნდა გამოააშკარაოს ამ ქალაქის ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            },
+            {
+                "title": "მოკავშირე",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"მას შემდეგ რაც დრაკულა გამოიყენებს გაქცევის (Escape As Bat ან Escape As Mist) ან ეშვების (Fangs) ბარათს მას აკლდება ორი სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Gud luck",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე დღისით"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეასრულე ჩამონათვალიდან ერთერთი:",
+                            "listItems": ["აიღე ერთი ბლოკპოსტი (Roadblock) ჟეტონი რუკიდან","გააუქმე დრაკულას არსებული მოკავშირე","გააუქმე ცრუ გადაადგილების (False Trip) ბარათი"]
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Behind the veil",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე დრაკულას მოქმედებების და მის ხელთ არსებული ბორტომოქმედებების ბარათები. მოიშორე ერთერთი ბოროტმოქმედის ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Local rumors",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დრაკულამ უნდა გამოააშკარაოს ყველა მდებარეობის ბარათი შენს მეზობლად არსებული სამალავებიდან",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Hired scouts",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ახლავე"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე ორი ქალაქი. დრაკულამ უნდა გამოააშკარაოს ორივე ქალაქის მდებარეობის ბარათები",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Vampire lair",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც დღის მოქმედება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გადააგდე მახვილი (Stake) საგნის ბარათი და გამოეთიშე თამაშს ერთი სვლით ზეგავლენის ქულის ორით შესამცირებლად",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Blood transfusion",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც მოქმედება თუ არ ხარ ნაკბენი"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე ნაკბენი მონადირე შენს ქალაქში. მოაშორე მას ერთი კბენის ჟეტონი და დაიკელი ერთი სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Speedy telegraph",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე გამთენიისას"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"მომდევნო დღისით და ღამით მონადირეები თამაშობენ ნებისმიერი თანმიმდევრობით",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Money trail",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც მოქმდება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე ზღვის მდებარეობის ბარათი. დრაკულამ უნდა გამოააშკარაოს ეგ ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Hypnosis",
+        "img": "",
+        "abilities": [],
+        "meta": ["მხოლოდ Mina Harker-ისთვის","გამოიყენე როგორც მოქმედება თუ იმყოფები ქალაქში სხვა მონადირესთან ერთად"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დრაკულამ უნდა გითხრას რომელ რეგიონში იმყოფება. შემდეგ შენ ხდები გამოთიშული",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Chartered carriage",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე რკინიგზით გადაადგილებამდე"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დახარჯე ერთი მატარებლის ბილეთი და გადაადგილდი ნებისმიერ ქალაქში მაქსიმუ 4 ლიანდაგის მოშორებით",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Escape route",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ბრძოლის დაწყებამდე სანამ აირჩევ საბრძოლო ბარათს"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შენ ან სხვა მონადირე ეთიშებით ბრძოლას",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Forewarned",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როცა დაგესხნიან ხაფანგით (არა ვამპირით)"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გააუქმე ეგ ბარათი ეფექტის გარეშე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Great strength",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ბრძლის დროს როცა შენ ან სხვა მონადირე ხართ ნაკბენი ან დამარცხდებით დარტყმის შემთხვევაში"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ეგ კბენა ან დარტყმა უქმდება",
+                            "listItems": []
+                        },
+                        {
+                            "text":"ბარათის გამოყენება შეგიძლიათ მაშინაც კი თუ ბრძოლაში არ მონაწილეობთ",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Heroic leap",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ბრძლის დასაწყისში სანამ აირჩევ საბრძოლო ბარათს"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ბრძოლის ნაცვლად თქვენც და ვამპირსაც გაკლდებათ ხუთი სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Long nigth",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე გამთენიისას"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შემდეგ ღამეს მონადირეებს შეუძლიათ იმოძრაონ გზით. ამ შემთხვევაში მონადირე ირჩევს ქვედა ბარათს მოქმედებების დასტიდან და თუ მონადირის ბარათია იშორებს მას",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Lucky find",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ბრძლის დასაწყისში სანამ აირჩევ საბრძოლო ბარათს"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეხედე ნივთების დასტის ზემოთა ხუთ ბარათს და აიღე ერთერთი. დანარჩენები მოიშორე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Mystic research",
+        "img": "",
+        "abilities": [],
+        "meta": ["მხოლოდ Van Helsing-ისთვის","ითამაშე როგორც მოქმდება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"შეხედე ქვედა ექვს ბარათს მოქმედებების დასტიდან. გადაყარე ყველა დრაკულას ბარათი და დანარჩენები დააბრუნე უკან იმავე თანმიმდევრობით",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Planned anbush",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე ბრძლის დასაწყისში სანამ აირჩევ საბრძოლო ბარათს"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ბრძოლის პირველ რაუნდში ბარათების გამოაშკარავების შემდეგ შეგიძლია შეცვალო შენი ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Renewed vigor",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე გამთენიისას"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"მომდევნო დღის განმავლობაში მონადირეებს შეუძლიათ ერთი დამატებითი მოქმედების შესრულება, მაგრამ არა ერთი და იგივეს",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Sence of emergancy",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე როგორც დღის მოქმედება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"დაიკელი ორი სიცოცხლე და გადაადგილდი ქალაქში მაქსიმუმ სამი ლიანდაგის მოშორებით",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "title": "Suprising return",
+        "img": "",
+        "abilities": [],
+        "meta": ["ითამაშე გათენებისას ან დაღამებისას"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"მოძებნე მოქმედებების დასტაში მოკავშირის (Ally) ბარათი და გამოიყენე ის",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Rifle",
+        "img": "/images/items/rifle.jpg",
+        "abilities": ["claws","escape-as-bat"],
+        "meta": ["Weapon"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ვამპირს აკლდება 2 სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Pistol",
+        "img": "/images/items/pistol.jpg",
+        "abilities": ["claws","plotting"],
+        "meta": ["Weapon"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ვამპირს აკლდება 2 სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Knife",
+        "img": "/images/items/knife.jpg",
+        "abilities": ["fangs","escape-as-bat"],
+        "meta": ["Weapon"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"ვამპირს აკლდება 3 სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Holy circle",
+        "img": "/images/items/holy-circle.jpg",
+        "abilities": ["fangs","fist","claws","mesmerize","plotting","escape-as-bat","escape-as-mist"],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე ერთი ან მეტი მონადირე და გამოთიშე ბრძოლას",
+                            "listItems": []
+                        },
+                        {
+                            "text":"შემდეგ გადააგდე ეს ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Garlic wreath",
+        "img": "/images/items/garlic-wreath.jpg",
+        "abilities": [],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე ეს ბარათი ბრძოლის პირველ რაუნდში ბარათების არჩევამდე. ბრძოლის ბოლომდე თუ დაგაკლდა სიცოცხლე ეშვებით (Fangs), ვამპირს აკლდება 4 სიცოცხლე",
+                            "listItems": []
+                        },
+                        {
+                            "text":"გააუქმე და გადააგდე ეს ბარათი თუ შენს წინააღმდეგ წარმატებით გამოიყენებენ კლანჭებს (Claws), სხვა შემთხვევაში გადააგდე ეს ბარათი ბრძოლის ბოლოს",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Heavenly host",
+        "img": "/images/items/heavenly-host.jpg",
+        "abilities": ["mesmerize"],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"თუ ხარ ბრძოლაში მონაწილე მონადირე და შენს წინააღმდეგ გამოიყენეს ეშვები (Fangs), თქვენ ხდებით ნაკბენი, ეთიშებით ბრძოლას და კარგავთ ამ ბარათს",
+                            "listItems": []
+                        },
+                        {
+                            "text":"სხვა შემთხვევაში, ვამპირს აკლდება 4 სიცოცხლე და იშორებთ ამ ბარათს",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Fast horses",
+        "img": "/images/items/fast-horses.jpg",
+        "abilities": [],
+        "meta": ["გამოიყენე ეს ბარათი როგორც დღის მოქმედება"],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"აირჩიე ერთი მატარებლის ბილეთი მაღაზიიდან და გადაადგილდი იმდენი გზით რა ციფრიც წერია მასზე ყვითლად",
+                            "listItems": []
+                        },
+                        {
+                            "text":"თუ ბილეთზე ყვითელი ფერის რიცხვი არ წერია გადაადგილდი ერთი გზით და მოიშორე ეს ბარათი ხელში დაბრუნების ნაცვლად",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Dogs",
+        "img": "/images/items/dogs.jpg",
+        "abilities": [],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე ეს ბარათი ძებნის მოქმედებამდე. თუ გამოააშკარავე Rats, Saboteur, Spy ან Wolves მოიშორე ის ბარათი",
+                            "listItems": []
+                        },
+                        {
+                            "text":"თუ შემოგიტიეს რომელიმე ზემოთ აღნიშნული ხაფანგით შეგიძლიათ მოიშოროთ ეს ბარათიც და ხაფანგიც",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Holy bullets",
+        "img": "/images/items/holy-bullets.jpg",
+        "abilities": [],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"მოიშორე ეს ბარათი მას შემდეგ რაც გამოიყენებ თოფს (Rifle) ან პისტოლეტს (Pistol) ბარათს ვამპირს აკლდება 3 დამატებითი სიცოცხლე",
+                            "listItems": []
+                        },
+                        {
+                            "text":"მხოლოდ ერთი ამ ბარათის გამოყენება შეგიძლიათ თითო ბრძოლაში",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Stake",
+        "img": "/images/items/stake.jpg",
+        "abilities": [],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"გამოააშკარავე ეს ბარათი ძებნის მოქმედებამდე. თუ გამოააშკარავებ ვამპირის ან ხრიკის (Hoax) ბარათს, მოიშორე ორივე ბარათი",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Crucifix",
+        "img": "/images/items/crucifix.jpg",
+        "abilities": ["fangs","mesmerize","escape-as-mist"],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"თუ ეს ბარათი გააუქმებს ეშვებს (Fangs) ან ჰიპნოზს (Mesmerize) ვამპირს აკლდება 3 სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    {
+        "type": "item",
+        "title": "Garlic",
+        "img": "/images/items/garlic.jpg",
+        "abilities": ["fangs","fist"],
+        "meta": [],
+        "options": [
+            {
+                "title": "",
+                "description": {
+                    "paragraphs":[
+                        {
+                            "text":"თუ შენ ხარ ბრძოლაში მონაწილე მონადირე და ეშვები (Fangs) ან კლანჭები (Claws) გამოიყენეს ვამპირს აკლდება 2 სიცოცხლე",
+                            "listItems": []
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+    
+    
+    
+    
+
+]
