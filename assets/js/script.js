@@ -1,71 +1,3 @@
-let card1 =  {
-    "type": "event",
-    "title": "Lucy's revenge",
-    "img": "",
-    "abilities": [],
-    "meta": ["მხოლოდ Lord Godalming-ისთვის","ითამაშე ბრძოლის დაწყებამდე, სანამ აირჩევ ბარათს"],
-    "options": [
-        {
-            "title": "",
-            "description": {
-                "paragraphs":[
-                    {
-                        "text":"დადე ეს ბარათი შენს წინ და მოიშორე იგი ბრძოლის ბოლოს ან რომელიმე ქვემოთ ჩამოთვლილის შემთხვევაში :",
-                        "listItems": ["გააუქმე გაქცევის Escape As Bat ან Escape As Mist ბარათი","თუ ხარ ნაკბენი ან კვდები დარტყმით ის დარტყმა ან კბენა უქმდება"]
-                    }
-                ]
-            }
-        }
-    ]
-};
-
-
-let card2 = {
-    "type": "event",
-    "title": "Consecrated ground",
-    "img": "",
-    "abilities": [],
-    "meta": ["ითამაშე როგორც ღამის მოქმედება"],
-    "options": [
-        {
-            "title": "",
-            "description": {
-                "paragraphs":[
-                    {
-                        "text":"გამოიყენე Consecrated ground-ის ჟეტონი ნებისმიერ ქალაქზე გარდა Castle Dracula Galatz ან Klausenburg",
-                        "listItems": []
-                    },
-                    {
-                        "text":"შემდეგ თითოეულ მონადირეს შეუძლია გამოააშკარაოს Heavenly Host ბარათი და დადოს Heavenly Host ჟეტონი ნებისმიერ ქალაქზე იგივე გამონაკლისებით",
-                        "listItems": []
-                    }
-                ]
-            }
-        }
-    ]
-};
-
-let card3 = {
-    "type": "item",
-    "title": "Knife",
-    "img": "/assets/images/items/knife.jpg",
-    "abilities": ["fangs","escape-as-bat"],
-    "meta": ["Weapon"],
-    "options": [
-        {
-            "title": "",
-            "description": {
-                "paragraphs":[
-                    {
-                        "text":"ვამპირს აკლდება 3 სიცოცხლე",
-                        "listItems": []
-                    }
-                ]
-            }
-        }
-    ]
-};
-
 function renderCard(card, parent) {
     let container = document.createElement('div');
     container.classList.add('card', card.type);
@@ -73,13 +5,18 @@ function renderCard(card, parent) {
     renderTitle(card, container);
 
     if(card.img) {
+        if(card.abilities.length) {
+            renderAbilities(card, container);
+        }
         renderImage(card, container);
     }
+
     if(card.meta.length) {
         renderMeta(card, container);
     }
 
     let optionDiv = document.createElement('div');
+    optionDiv.classList.add("options-container");
     container.appendChild(optionDiv); 
 
     card.options.forEach(element => {
@@ -93,6 +30,24 @@ function renderTitle(card, parent) {
     let title = document.createElement('h4');
     title.textContent = card.title;
     parent.appendChild(title);
+}
+
+function renderAbilities(card, parent) {
+    const abilitiesContainer = document.createElement("div");
+    abilitiesContainer.classList.add("abilities-container");
+    parent.appendChild(abilitiesContainer);
+
+    const abilityNames = ['fangs', 'fist', 'claws', 'mesmerize', 'plotting', 'escape-as-bat', 'escape-as-mist'];
+    abilityNames.forEach(name => {
+        const imgElement = document.createElement('img');
+        imgElement.src = `/assets/images/attacks/${name}.png`;
+        abilitiesContainer.appendChild(imgElement);
+
+        if(card.abilities.includes(name)) {
+            imgElement.classList.add('show');
+        }
+                
+    });
 }
 
 function renderImage(card, parent) {
@@ -150,6 +105,32 @@ function renderList(list, parent) {
     parent.appendChild(ul);
 }
 
-renderCard(card1, document.body);
-renderCard(card2, document.body);
-renderCard(card3, document.body);
+let cards = [];
+const eventParent = document.body;
+const itemParent = document.body;
+
+fetch('/data.json')
+    .then(res => res.json())
+    .then(data => {
+        cards = data;
+        filter();
+    });
+
+function filter(query = "") {
+    eventParent.innerHTML = '';
+    itemParent.innerHTML = '';
+    if(query === "") {
+        filteredCards = cards;
+    } else {
+        filteredCards = cards.filter(card =>  card.title.toLowerCase().indexOf(query.toLowerCase()) > -1);
+    }
+
+    filteredCards.forEach(card => {
+        if(card.type === "event") {
+            renderCard(card, eventParent);
+        } else {
+            renderCard(card, itemParent);
+        } 
+    });
+}
+
