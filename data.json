@@ -665,7 +665,7 @@
     {
         "type": "item",
         "title": "Rifle",
-        "img": "/images/items/rifle.jpg",
+        "img": "/assets/images/items/rifle.jpg",
         "abilities": ["claws","escape-as-bat"],
         "meta": ["Weapon"],
         "options": [
@@ -685,7 +685,7 @@
     {
         "type": "item",
         "title": "Pistol",
-        "img": "/images/items/pistol.jpg",
+        "img": "/assets/images/items/pistol.jpg",
         "abilities": ["claws","plotting"],
         "meta": ["Weapon"],
         "options": [
@@ -705,7 +705,7 @@
     {
         "type": "item",
         "title": "Knife",
-        "img": "/images/items/knife.jpg",
+        "img": "/assets/images/items/knife.jpg",
         "abilities": ["fangs","escape-as-bat"],
         "meta": ["Weapon"],
         "options": [
@@ -725,7 +725,7 @@
     {
         "type": "item",
         "title": "Holy circle",
-        "img": "/images/items/holy-circle.jpg",
+        "img": "/assets/images/items/holy-circle.jpg",
         "abilities": ["fangs","fist","claws","mesmerize","plotting","escape-as-bat","escape-as-mist"],
         "meta": [],
         "options": [
@@ -749,7 +749,7 @@
     {
         "type": "item",
         "title": "Garlic wreath",
-        "img": "/images/items/garlic-wreath.jpg",
+        "img": "/assets/images/items/garlic-wreath.jpg",
         "abilities": [],
         "meta": [],
         "options": [
@@ -773,7 +773,7 @@
     {
         "type": "item",
         "title": "Heavenly host",
-        "img": "/images/items/heavenly-host.jpg",
+        "img": "/assets/images/items/heavenly-host.jpg",
         "abilities": ["mesmerize"],
         "meta": [],
         "options": [
@@ -797,7 +797,7 @@
     {
         "type": "item",
         "title": "Fast horses",
-        "img": "/images/items/fast-horses.jpg",
+        "img": "/assets/images/items/fast-horses.jpg",
         "abilities": [],
         "meta": ["გამოიყენე ეს ბარათი როგორც დღის მოქმედება"],
         "options": [
@@ -821,7 +821,7 @@
     {
         "type": "item",
         "title": "Dogs",
-        "img": "/images/items/dogs.jpg",
+        "img": "/assets/images/items/dogs.jpg",
         "abilities": [],
         "meta": [],
         "options": [
@@ -845,7 +845,7 @@
     {
         "type": "item",
         "title": "Holy bullets",
-        "img": "/images/items/holy-bullets.jpg",
+        "img": "/assets/images/items/holy-bullets.jpg",
         "abilities": [],
         "meta": [],
         "options": [
@@ -869,7 +869,7 @@
     {
         "type": "item",
         "title": "Stake",
-        "img": "/images/items/stake.jpg",
+        "img": "/assets/images/items/stake.jpg",
         "abilities": [],
         "meta": [],
         "options": [
@@ -889,7 +889,7 @@
     {
         "type": "item",
         "title": "Crucifix",
-        "img": "/images/items/crucifix.jpg",
+        "img": "/assets/images/items/crucifix.jpg",
         "abilities": ["fangs","mesmerize","escape-as-mist"],
         "meta": [],
         "options": [
@@ -909,7 +909,7 @@
     {
         "type": "item",
         "title": "Garlic",
-        "img": "/images/items/garlic.jpg",
+        "img": "/assets/images/items/garlic.jpg",
         "abilities": ["fangs","fist"],
         "meta": [],
         "options": [
