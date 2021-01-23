@@ -66,73 +66,90 @@ let card3 = {
     ]
 };
 
-function renderCard(card) {
+function renderCard(card, parent) {
     let container = document.createElement('div');
     container.classList.add('card', card.type);
 
-    let title = document.createElement('h4');
-    title.textContent = card.title;
-    container.appendChild(title);
+    renderTitle(card, container);
 
     if(card.img) {
-        let divImg = document.createElement('div');
-        divImg.classList.add('image-container')
-        let img = document.createElement('img');
-        img.src = card.img;
-        divImg.appendChild(img);
-        container.appendChild(divImg);
+        renderImage(card, container);
     }
     if(card.meta.length) {
-        let metaDiv = document.createElement('div');
-        metaDiv.classList.add('meta-container');
-        container.appendChild(metaDiv);
-        card.meta.forEach(element => {
-            let meta = document.createElement('h5');
-            meta.textContent = element;
-            metaDiv.appendChild(meta);
-        });
+        renderMeta(card, container);
     }
 
     let optionDiv = document.createElement('div');
-    
     container.appendChild(optionDiv); 
 
     card.options.forEach(element => {
-        if(element.title){
-            let title = document.createElement('h6');
-            title.textContent = element.title
-            optionDiv.appendChild(title)
-        }
-
-        element.description.paragraphs.forEach(element =>{
-            let text = document.createElement('p');
-            text.textContent = element.text
-            optionDiv.appendChild(text)
-            
-            if(element.listItems) {
-                let ul = document.createElement('ul');
-                
-                element.listItems.forEach(element =>{
-                    let li = document.createElement('li');
-                    li.textContent = element;
-                    ul.appendChild(li);
-                });
-
-                optionDiv.appendChild(ul);
-            }
-        
-        })
-
+        renderOption(element, optionDiv);
     });
 
-    
-    document.body.appendChild(container);
-
-
+    parent.appendChild(container);
 }
 
-renderCard(card1);
-renderCard(card2);
-renderCard(card3);
+function renderTitle(card, parent) {
+    let title = document.createElement('h4');
+    title.textContent = card.title;
+    parent.appendChild(title);
+}
 
-console.log(card3.img);  
+function renderImage(card, parent) {
+    let divImg = document.createElement('div');
+    divImg.classList.add('image-container')
+    let img = document.createElement('img');
+    img.src = card.img;
+    divImg.appendChild(img);
+    parent.appendChild(divImg);
+}
+
+function renderMeta(card, parent) {
+    let metaDiv = document.createElement('div');
+    metaDiv.classList.add('meta-container');
+    parent.appendChild(metaDiv);
+    
+    card.meta.forEach(element => {
+        let meta = document.createElement('h5');
+        meta.textContent = element;
+        metaDiv.appendChild(meta);
+    });
+}
+
+function renderOption(option, parent) {
+    if(option.title){
+        let title = document.createElement('h6');
+        title.textContent = option.title
+        parent.appendChild(title)
+    }
+
+    option.description.paragraphs.forEach(element =>{
+        renderParagraph(element, parent);
+    })
+}
+
+function renderParagraph(paragraph, parent) {
+    let text = document.createElement('p');
+    text.textContent = paragraph.text
+    parent.appendChild(text)
+    
+    if(paragraph.listItems) {
+        renderList(paragraph.listItems, parent);
+    }
+}
+
+function renderList(list, parent) {
+    let ul = document.createElement('ul');
+                
+    list.forEach(element =>{
+        let li = document.createElement('li');
+        li.textContent = element;
+        ul.appendChild(li);
+    });
+
+    parent.appendChild(ul);
+}
+
+renderCard(card1, document.body);
+renderCard(card2, document.body);
+renderCard(card3, document.body);
