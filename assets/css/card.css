@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Texturina;
+}
+
+.card {
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 465px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-size: cover;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+
+.card.item {
+    background-image: url('/assets/images/item-card.jpg');
+}
+.card.event {
+    background-image: url('/assets/images/event-card.jpg');
+}
+
+.card h4 {
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.card img {
+    width: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+}
+
+.card.event .meta-container {
+    margin-top: 70px;
+}
+
+.card .meta-container h5 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.card ul {
+    text-align: left;
+    width: 180px;
+    margin: auto;
+}
+
+.card ul li {
+    margin-top: 10px;
+    font-size: 13px;
+}
