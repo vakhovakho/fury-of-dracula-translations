@@ -11,7 +11,9 @@ Serve `index.html` file in your browser.
 Type any letter to search by card title.
 
 ## How to change language?
-change content of `data.json` file inside the root directory.
+Duplicate the file `/translations/ka.json`. For example `/translations/fr.json`.  
+Then translate contents of `fr.json`.  
+Then open the app in your browser with `lang` parameter. For example `http://localhost:5000?lang=fr`.
 
 ## Resources:
 Fury Of Dracula Third/Fourth Edition: https://boardgamegeek.com/boardgame/181279/fury-dracula-thirdfourth-edition
