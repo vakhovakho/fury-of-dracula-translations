@@ -3,6 +3,9 @@ This project contains Georgian (changeable) translation for the board game Third
 You can search for cards by their English titles and get translation in Goergian (Or any language you add).  
 You can change this translation to any language.
 
+## DEMO
+see here: http://dracula.vakho.space
+
 ## How to use?
 Serve `index.html` file in your browser.
 Type any letter to search by card title.
