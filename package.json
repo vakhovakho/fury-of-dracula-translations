@@ -1,0 +1,23 @@
+{
+  "name": "fury-of-dracula-translations",
+  "version": "1.1.0",
+  "description": "Translations for board game cards Fury Of Dracula",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakhovakho/fury-of-dracula-translations.git"
+  },
+  "author": "Vakho Nakashidze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vakhovakho/fury-of-dracula-translations/issues"
+  },
+  "homepage": "https://github.com/vakhovakho/fury-of-dracula-translations#readme",
+  "dependencies": {
+    "serve": "^11.3.2"
+  }
+}
