@@ -123,13 +123,19 @@ function filter(query = "") {
     });
 }
 
+function getLangFromUrl(){
+    const url = new URL(window.location.href);
+    return url.searchParams.get("lang");
+}
+
 let cards = [];
+const lang = getLangFromUrl() || 'ka'
 
 const eventParent = document.getElementById("events");
 const itemParent = document.getElementById("items");
 const searchElement = document.getElementById('search');
 
-fetch('/data.json')
+fetch('/translations/' + lang + '.json')
     .then(res => res.json())
     .then(data => {
         cards = data;
@@ -138,5 +144,5 @@ fetch('/data.json')
 
 searchElement.addEventListener("keyup", () => {
     filter(searchElement.value);
-})
+});
 
