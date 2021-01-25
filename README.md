@@ -6,6 +6,9 @@ You can add translation of any language.
 ## DEMO
 see here: http://dracula.vakho.space
 
+## Dependencies
+- node.js
+
 ## How to use?
 - Run `npm install` command from project's root directory.  
 - Run `npm start` command and open app iside a browser.
