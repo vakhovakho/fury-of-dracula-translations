@@ -240,7 +240,7 @@
     },
     {
         "type": "event",
-        "title": "Gud luck",
+        "title": "Good luck",
         "img": "",
         "abilities": [],
         "meta": ["ითამაშე დღისით"],
@@ -644,7 +644,7 @@
     },
     {
         "type": "event",
-        "title": "Suprising return",
+        "title": "Surprising return",
         "img": "",
         "abilities": [],
         "meta": ["ითამაშე გათენებისას ან დაღამებისას"],
@@ -654,7 +654,7 @@
                 "description": {
                     "paragraphs":[
                         {
-                            "text":"მოძებნე მოქმედებების დასტაში მოკავშირის (Ally) ბარათი და გამოიყენე ის",
+                            "text":"მოძებნე გამოყენებული მოქმედებების დასტაში მოკავშირის (Ally) ბარათი და გამოიყენე ის",
                             "listItems": []
                         }
                     ]
